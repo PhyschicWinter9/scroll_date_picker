@@ -50,7 +50,7 @@ class DateScrollView extends StatelessWidget {
       style: scrollViewOptions.selectedTextStyle,
     );
 
-    if (locale.languageCode == ar) {
+    if (locale.languageCode == ar || locale.languageCode == th) {
       return textWidth + 40;
     }
 
